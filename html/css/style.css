@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+html{
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav {
+    background-color: #3E3E3F;
+    overflow: hidden;
+    display: block;
+}
+
+.top-nav ul li{
+    list-style: none; /*Retira as bullets da lista*/
+    float: left; /*Faz com que os elementos da li flutuem lado a lado*/
+    padding: 20px
+
+ 
+}
+
+.top-nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+.top-nav li:hover{
+    background: rgba(56, 244,203, 0.7);
+    
+}
+
+/* Section-1*/
+
+h1{
+    padding: 45px;
+    text-align: center;   
+}
+
+h2 {
+    margin-left: 50px; 
+    
+}
+
+.h1-title{
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+    font-size: 60px;  
+}
+
+.box{
+    margin: 120px 0px;
+    display: flex;   
+}
+
+.box p{
+    text-align: left;
+    letter-spacing: 1.3px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+
+#container{
+    width: auto;   
+}
+
+#container div{
+    position: relative;   
+}
+
+#container p{
+    margin-left: 25px;
+}
+
+#container img{
+    position: relative;
+    margin-left: 25px;
+    
+}
+
+.size-art1{
+    background: rgb(235, 233, 233);
+    padding: 5px;
+}
+
+
+.size-art2{
+    background: #5d3e8e;
+    padding: 5px 0px 75px 0px;
+}
+
+.size-art3{
+    background: #008eb6;
+    padding: 10px;
+}
+
+.conteudo-paragrafo{
+    line-height: 1.5;
+}
+
+.box-icon{
+    display: flex;
+    text-align: center;
+    background: rgba(191, 191, 191, 0.1);
+    margin: 75px 25px 35px;
+    padding: 50px;
+    border-radius: 25px;
+    
+}
+
+.box-icon span[class^=icon]{
+    font-size: 60px;
+    color: white;
+}
+
+.box-icon p{
+    letter-spacing: 1.3px;
+    color: white;
+}
+
+.shadow-img{
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
+.h1-title-art2, .h2-title-art2{
+    color: white;
+}
+
+
