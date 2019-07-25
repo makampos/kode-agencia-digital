@@ -297,6 +297,7 @@ img{
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    transition: 0.3s;
   }
   
   input[type=submit]:hover {
@@ -318,3 +319,36 @@ img{
       height: 200px;
       background-color: #3E3E3F;
   }
+
+  .grid-container{
+      display: grid;
+      grid-template-columns: 45px 45px 45px;
+      justify-content: center;
+      padding: 10px;
+      
+  }
+
+  .grid-item{ 
+    font-size: 25px;
+    margin-top: 50px;  
+    color: white;
+    
+
+  }
+
+ .grid-item a{
+     color: white;
+     text-decoration: none;
+ }
+ .grid-item a:hover{
+     color: #04b2e2;
+     transition: 0.3s;
+
+ }
+
+  .copyright{
+      text-align: center;
+  }
+  
+ 
+  
