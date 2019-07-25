@@ -5,9 +5,14 @@ html{
     font-family: 'PT Sans', sans-serif;
 }
 
-body{
-    margin: 0;
-    padding: 0;
+
+
+
+
+.centraliza-conteudo-pagina{
+    max-width: 1920px;
+   justify-content: center;
+   margin: auto;
 }
 
 .top-nav {
@@ -57,10 +62,7 @@ h2,h3 {
     font-size: 60px;  
 }
 
-.box{
-    margin: 120px 0px;
-    display: flex;   
-}
+
 
 @media screen and (max-width: 1300px) {
     .box {
@@ -71,9 +73,13 @@ h2,h3 {
     
 }
 
+
+
+
 .box p{
     text-align: left;
     letter-spacing: 1.3px;
+    
 }
 
 img{
@@ -104,6 +110,7 @@ img{
 .size-art1{
     background: rgb(235, 233, 233);
     padding: 5px;
+    
 }
 
 
@@ -132,9 +139,11 @@ img{
     display: flex;
     text-align: center;
     background: rgba(191, 191, 191, 0.1);
-    margin: 75px 25px 35px;
-    padding: 50px;
+    margin: 70px 25px 35px;
+    padding: 30px;
     border-radius: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
     
 }
 
@@ -146,6 +155,8 @@ img{
 .box-icon p{
     letter-spacing: 1.3px;
     color: white;
+    text-align: left;
+    max-width: 300px;
 }
 
 .shadow-img{
@@ -238,6 +249,7 @@ img{
     display: flex;
     justify-content: center;
     align-content: center;
+    flex-wrap: wrap;
   }
 
   .box_contato img{
@@ -273,6 +285,8 @@ img{
        display: flex;
        flex-direction: row;
        justify-content: center;
+       
+       
        
   }
 
