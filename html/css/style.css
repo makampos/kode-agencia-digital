@@ -6,40 +6,83 @@ html{
 }
 
 
-
-
-
-.centraliza-conteudo-pagina{
-    max-width: 1920px;
-   justify-content: center;
-   margin: auto;
-}
-
-.top-nav {
-    background-color: #3E3E3F;
-    overflow: hidden;
-    display: block;
-}
-
-.top-nav ul li{
-    list-style: none; /*Retira as bullets da lista*/
-    float: left; /*Faz com que os elementos da li flutuem lado a lado*/
-    padding: 20px
-
- 
-}
-
-.top-nav a{
-    color: white;
+/* navbar*/
+.nav-wrapper {
+    width: 100%;
+    padding: 50px 0 70px;
+  }
+  
+  nav {
+    position: relative;
+  }
+  
+  ul {
+    list-style-type: none;
+    float: left;
+    left: 50%;
+    position: relative;
+  }
+  
+  li {
+    margin: 0 30px;
+    float: left;
+    left: -50%;
+    position: relative;
+  }
+  
+  a {
     text-decoration: none;
+    color: #fff;
     text-transform: uppercase;
-    
+  }
+  
+  
+  
+  .nav-wrapper-1 {
+    background-color:#3E3E3F;
+  }
+  
+  
+
+
+
+.effect-1 a:before,.effect-1 a:after {
+	content: "";
+	height: 1px;
+	width: 0;
+	opacity: 0;
+	background-color: #fff;
+	position: absolute;
+	transition: all .5s;
 }
 
-.top-nav li:hover{
-    background: rgba(56, 244,203, 0.7);
-    
+.effect-1 a:before {
+	top: -3px;
 }
+
+.effect-1 a:after {
+	bottom: -3px;
+	right: 0;
+}
+
+.effect-1 a:hover:before,
+.effect-1 a:hover:after {
+	width: calc(100% + 20px);
+	opacity: 0.7;
+}
+
+@media screen and (max-width: 600px){
+    .effect-1{
+        display: flex;
+        flex-direction: column;
+    }  
+    .effect-1 li{
+        padding: 10px;
+    }
+}
+
+/* Fim navbar*/
+
 
 /* Section-1*/
 
@@ -60,7 +103,10 @@ h2,h3 {
     font-family: 'Archivo Black', sans-serif;
     text-transform: uppercase;
     font-size: 60px;  
+    text-align: center;
 }
+
+
 
 
 
@@ -113,10 +159,21 @@ img{
     
 }
 
+/* Centralia conteúdo da página */
+.centered{
+    max-width: 1440px;
+    margin: auto;
+    padding: auto;  
+}
+
 
 .size-art2{
-    background: #5d3e8e;
+    background: #7f5eb4;
     padding: 5px 0px 75px 0px;
+}
+
+.size-art2 p {
+    color: white;
 }
 
 .size-art3{
@@ -164,7 +221,7 @@ img{
 }
 
 .h1-title-art2, .h2-title-art2{
-    color: white;
+    color: black;
 }
 
 
