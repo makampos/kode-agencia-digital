@@ -83,6 +83,46 @@ html{
 
 /* Fim navbar*/
 
+/* Slide background*/
+
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+    }
+    
+    
+    div#slider { 
+        overflow: hidden; 
+        max-height: 500px;
+        
+        
+    }
+
+    div#slider figure  img  { 
+        width: 20%; float: left; 
+        background-image: cover;
+        
+        
+    }
+
+    div#slider figure { 
+      position: relative;
+      width: 500%;
+      margin: 0;
+      left: 0;
+      text-align: left;
+      font-size: 0;
+      animation: 30s slidy infinite; 
+    }
+    
+
 
 /* Section-1*/
 
@@ -128,7 +168,8 @@ h2,h3 {
     
 }
 
-img{
+
+.box_contato img{
     border-radius: 10px;
     max-width:100%;
 	height:auto;
@@ -222,6 +263,7 @@ img{
 
 .h1-title-art2, .h2-title-art2{
     color: black;
+    
 }
 
 
@@ -263,8 +305,8 @@ img{
 
 
 .background-img-art5 {
-    background-image: url("/imagens/marketing-background.jpg");
-    height: 700px;
+    background-image: url("/imagens/slide-background/close-up-commerce-data-266176.jpg");
+    height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -280,14 +322,14 @@ img{
     top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-    text-transform: uppercase;
   }
 
 
   .background-img-art5-text h1{
-      font-size: 40px;
-      text-decoration: underline;  
+      font-family: 'PT sans';
+      font-size: 50px;
+      
+      
   }
 
   .background-img-art5-text {
@@ -299,6 +341,7 @@ img{
   .h1-size-art6{
       margin-top: 0px;
       text-transform: uppercase;
+      
   }
 
   .box_contato{
@@ -361,7 +404,7 @@ img{
   }
   
   input[type=submit] {
-    background-color: #04b2e2;
+    background-color: #4ecbee;
     color: white;
     margin-top: 12px;
     padding: 12px 20px;
@@ -377,7 +420,7 @@ img{
   
   .container {
     border-radius: 5px;
-    background-color: #5d3e8e;
+    background-color: #7f5eb4;
     padding: 20px;
     margin-bottom: 100px;
   }
