@@ -10,6 +10,7 @@ html{
 .nav-wrapper {
     width: 100%;
     padding: 50px 0 70px;
+    
   }
   
   nav {
@@ -21,6 +22,8 @@ html{
     float: left;
     left: 50%;
     position: relative;
+    
+    
   }
   
   li {
@@ -101,15 +104,11 @@ html{
     div#slider { 
         overflow: hidden; 
         max-height: 500px;
-        
-        
     }
 
     div#slider figure  img  { 
         width: 20%; float: left; 
-        background-image: cover;
-        
-        
+        background-image: cover; 
     }
 
     div#slider figure { 
@@ -144,6 +143,7 @@ h2,h3 {
     text-transform: uppercase;
     font-size: 60px;  
     text-align: center;
+    
 }
 
 
@@ -196,7 +196,8 @@ h2,h3 {
 
 .size-art1{
     background: rgb(235, 233, 233);
-    padding: 5px;
+    padding: 0.1px;
+    
     
 }
 
@@ -368,6 +369,11 @@ h2,h3 {
     opacity: 0.7;
   }
 
+  .box_contato p{
+      text-align: center;
+      
+  }
+
   
 
  
@@ -434,6 +440,15 @@ h2,h3 {
       background-color: #3E3E3F;
   }
 
+.p-footer{
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    color: white;
+    font-weight: bold;
+    
+}
+
   .grid-container{
       display: grid;
       grid-template-columns: 45px 45px 45px;
@@ -446,22 +461,17 @@ h2,h3 {
     font-size: 25px;
     margin-top: 50px;  
     color: white;
-    
-
+    margin-top: 0;
   }
 
  .grid-item a{
      color: white;
      text-decoration: none;
  }
- .grid-item a:hover{
-     color: #04b2e2;
-     transition: 0.3s;
-
- }
-
+ 
   .copyright{
       text-align: center;
+      
   }
   
  
