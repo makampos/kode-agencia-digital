@@ -9,7 +9,7 @@ html{
 /* navbar*/
 .nav-wrapper {
     width: 100%;
-    padding: 50px 0 70px;
+    padding: 30px 0 30px;
     
   }
   
@@ -21,9 +21,7 @@ html{
     list-style-type: none;
     float: left;
     left: 50%;
-    position: relative;
-    
-    
+    position: relative; 
   }
   
   li {
@@ -32,21 +30,23 @@ html{
     left: -50%;
     position: relative;
   }
-  
+
   a {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
   }
-  
-  
-  
+
+  /* Ajusta a barra de navegação para ocupar 100% da div */
+
+  .clearfix {
+    overflow: auto;
+    overflow: hidden;
+}
+
   .nav-wrapper-1 {
     background-color:#3E3E3F;
   }
-  
-  
-
 
 
 .effect-1 a:before,.effect-1 a:after {
@@ -72,6 +72,19 @@ html{
 .effect-1 a:hover:after {
 	width: calc(100% + 20px);
 	opacity: 0.7;
+}
+
+@media screen and (max-width: 547px){
+
+    .nav-wrapper ul li{
+       display: inline;
+       width: 50%;
+       text-align: center;
+       
+    }
+
+    
+    
 }
 
 @media screen and (max-width: 600px){
@@ -144,6 +157,16 @@ h2,h3 {
     font-size: 60px;  
     text-align: center;
     
+}
+
+/* Formatação do título para mobile*/
+
+@media screen and (max-width: 400px){
+    .h1-title{
+        font-size: 45px;
+        margin: auto;
+        padding: auto;
+    }
 }
 
 
