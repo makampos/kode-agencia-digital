@@ -1,16 +1,26 @@
 @charset "UTF-8";
 
-
 html{
     font-family: 'PT Sans', sans-serif;
 }
 
+h1{
+    padding: 45px;
+    text-align: center;   
+}
 
-/* navbar*/
+h2,h3 {
+    margin-left: 50px; 
+    line-height: 38px;
+    text-transform: uppercase;
+}
+
+
+
+/* Barra de navegação*/
 .nav-wrapper {
     width: 100%;
     padding: 30px 0 30px;
-    
   }
   
   nav {
@@ -38,7 +48,6 @@ html{
   }
 
   /* Ajusta a barra de navegação para ocupar 100% da div */
-
   .clearfix {
     overflow: auto;
     overflow: hidden;
@@ -47,7 +56,6 @@ html{
   .nav-wrapper-1 {
     background-color:#3E3E3F;
   }
-
 
 .effect-1 a:before,.effect-1 a:after {
 	content: "";
@@ -74,17 +82,14 @@ html{
 	opacity: 0.7;
 }
 
+/* Controle de responsividade da barra de navegação */
 @media screen and (max-width: 547px){
 
     .nav-wrapper ul li{
        display: inline;
        width: 50%;
        text-align: center;
-       
-    }
-
-    
-    
+    }  
 }
 
 @media screen and (max-width: 600px){
@@ -96,11 +101,9 @@ html{
         padding: 10px;
     }
 }
-
 /* Fim navbar*/
 
 /* Slide background*/
-
 @keyframes slidy {
     0% { left: 0%; }
     20% { left: 0%; }
@@ -134,29 +137,11 @@ html{
       animation: 30s slidy infinite; 
     }
     
-
-
-/* Section-1*/
-
-h1{
-    padding: 45px;
-    text-align: center;   
-}
-
-h2,h3 {
-    margin-left: 50px; 
-    line-height: 38px;
-    text-transform: uppercase;
-}
-
-
-
 .h1-title{
     font-family: 'Archivo Black', sans-serif;
     text-transform: uppercase;
     font-size: 60px;  
-    text-align: center;
-    
+    text-align: center; 
 }
 
 /* Formatação do título para mobile*/
@@ -169,31 +154,22 @@ h2,h3 {
     }
 }
 
-
-
-
-
 @media screen and (max-width: 1300px) {
     .box {
         flex-direction: row;
         display: inline-block;
         text-align: center; 
     }
-    
 }
-
-
-
 
 .box p{
     text-align: left;
     letter-spacing: 1.3px;
-    
 }
 
 
 .box_contato img{
-    border-radius: 10px;
+    border-radius: 100px;
     max-width:100%;
 	height:auto;
 }
@@ -214,14 +190,11 @@ h2,h3 {
 #container img{
     position: relative;
     margin-left: 25px;
-    
 }
 
 .size-art1{
     background: rgb(235, 233, 233);
     padding: 0.1px;
-    
-    
 }
 
 /* Centralia conteúdo da página */
@@ -230,7 +203,6 @@ h2,h3 {
     margin: auto;
     padding: auto;  
 }
-
 
 .size-art2{
     background: #7f5eb4;
@@ -246,10 +218,7 @@ h2,h3 {
     padding: 10px;
 }
 
-
-
 .size-art4{
-    
     padding: 50px;
 }
 
@@ -265,8 +234,7 @@ h2,h3 {
     padding: 30px;
     border-radius: 25px;
     flex-wrap: wrap;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 
 .box-icon span[class^=icon]{
@@ -287,20 +255,14 @@ h2,h3 {
 
 .h1-title-art2, .h2-title-art2{
     color: black;
-    
 }
-
-
 
 .imagem-art4{
     padding-left: 20px;
    float: right;
     max-width:100%;
 	height:auto;
-   
 }
-
-
 
 .size-art4 p {
     text-align: justify;
@@ -314,19 +276,13 @@ h2,h3 {
     letter-spacing: 1.3px;
     font-size: 28px;
     margin-left: 0;
-    
 }
 
-/*Marketing section*/
+/*Sessão Marketing*/
 
 .size-art5{
     background-color: #04b2e2;
-    
-    
 }
-
-
-
 
 .background-img-art5 {
     background-image: url("/imagens/slide-background/close-up-commerce-data-266176.jpg");
@@ -352,24 +308,22 @@ h2,h3 {
   .background-img-art5-text h1{
       font-family: 'PT sans';
       font-size: 50px;
-      
-      
   }
 
   .background-img-art5-text {
     letter-spacing: 1.8px;
   }
 
-  /* Contato */
+  /*Fim sessão Marketing*/
+
+  /*Contato*/
 
   .h1-size-art6{
       margin-top: 0px;
       text-transform: uppercase;
-      
   }
 
   .box_contato{
-    
     display: flex;
     justify-content: center;
     align-content: center;
@@ -396,11 +350,11 @@ h2,h3 {
       text-align: center;
       
   }
-
+   /*Fim contato*/
   
 
  
-  /* Forms */
+  /*Formulário*/
   .h1-forms{
       text-transform: uppercase;
       letter-spacing: 1.3px;
@@ -414,12 +368,7 @@ h2,h3 {
        display: flex;
        flex-direction: row;
        justify-content: center;
-       
-       
-       
   }
-
-  
 
   input[type=text], select, textarea {
     width: 100%;
@@ -453,10 +402,10 @@ h2,h3 {
     padding: 20px;
     margin-bottom: 100px;
   }
+  /*Fim formulário*/
  
 
-  /* Footer */
-
+  /*Rodapé*/
   .size-art8{
       width: auto;
       height: 200px;
@@ -468,8 +417,7 @@ h2,h3 {
     margin: auto;
     padding: 30px;
     color: white;
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
 
   .grid-container{
@@ -477,7 +425,6 @@ h2,h3 {
       grid-template-columns: 45px 45px 45px;
       justify-content: center;
       padding: 10px;
-      
   }
 
   .grid-item{ 
@@ -494,8 +441,6 @@ h2,h3 {
  
   .copyright{
       text-align: center;
-      
   }
-  
- 
+  /*Fim rodapé*/
   
