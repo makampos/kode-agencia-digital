@@ -237,6 +237,12 @@ h2,h3 {
     justify-content: center;   
 }
 
+.box-icon h3{
+    margin: auto;
+    padding-top: 10px;
+    color: white;
+}
+
 .box-icon span[class^=icon]{
     font-size: 60px;
     color: white;
