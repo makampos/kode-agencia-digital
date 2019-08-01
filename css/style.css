@@ -282,18 +282,17 @@ h2,h3 {
 
 .size-art5{
     background-color: #04b2e2;
+    max-height: 600px;
+    overflow: hidden;    
 }
 
-.background-img-art5 {
-    background-image: url("/imagens/slide-background/close-up-commerce-data-266176.jpg");
-    height: 600px;
-    background-position: center;
-    background-repeat: no-repeat;
+.background-img-art5 img {
+    height:auto;
+    max-width: 100%;
+    display:block;
     background-size: cover;
-    position: relative;
-    -webkit-mask-image: linear-gradient(to bottom, transparent 10%, black 75%);
-    mask-image: linear-gradient(to bottom, transparent 25%, black 45%);
-    
+    -webkit-mask-image: linear-gradient(to bottom, transparent 10%, black 10%);
+    mask-image: linear-gradient(to bottom, transparent 2%, black 30%);
   }
 
   .background-img-art5-text {
